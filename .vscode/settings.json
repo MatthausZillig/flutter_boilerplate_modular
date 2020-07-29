@@ -3,6 +3,7 @@
     "Schyler",
     "charcode",
     "gofast",
+    "mobx",
     "petitparser"
   ]
 }
