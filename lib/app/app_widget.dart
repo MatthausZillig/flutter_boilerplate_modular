@@ -1,10 +1,9 @@
 ﻿import 'package:flutter/material.dart';
 import 'package:flutter_gofast/app/app_controller.dart';
+import 'package:flutter_gofast/app/core/features/localization/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-
-import 'core/localization/app_localizations.dart';
 
 class AppWidget extends StatelessWidget {
   @override

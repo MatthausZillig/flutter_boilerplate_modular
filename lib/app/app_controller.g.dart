@@ -28,8 +28,8 @@ mixin _$AppController on _AppControllerBase, Store {
       AsyncAction('_AppControllerBase.getThemeData');
 
   @override
-  Future getThemeData() {
-    return _$getThemeDataAsyncAction.run(() => super.getThemeData());
+  Future loadThemeData() {
+    return _$getThemeDataAsyncAction.run(() => super.loadThemeData());
   }
 
   final _$setThemeDataAsyncAction =
